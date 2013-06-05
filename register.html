@@ -5,38 +5,108 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="css/bootstrapamelia.min.css" rel="stylesheet" media="screen">
-    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"><!--very important-->
-    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+    <!-- <link href="css/bootstrapamelia.min.css" rel="stylesheet" media="screen">
+    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">-->
+
+    <!-- Loading Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/custom.css" rel="stylesheet">
+
     <style type="text/css">
-           #sidebar{
-              margin-top: 200px;
-           }
+
+      #name{
+        font-size: 74px;
+      }
     </style>
   </head>
-  <body>
+<body>
 
  <div class="container">
-  <div class="row" id="main-content"> 
-      <div class="span4 offset4" id="sidebar">
-        <div class="well">
-          <font>
-            <fieldset>
-              <legend>Register</legend>
-              <input type="text" class="input-block-level"placeholder="username"><!-- text box for username -->
-              <input type="text" class="input-block-level" placeholder="password"><!-- for passowrd -->
-              <input type="text" class="input-block-level" placeholder="email id"><!-- for email id -->
-              <input type="submit" class="btn btn-primary" value="signup"><!-- signup button -->
-            </fieldset>
-          </font>
+   <!-- <header class="row">
+      <div class="span12">
+        <h1 id="name"> Social Book Worms </h1>
+        <small>share books. share wisdom. </small>
+      </div>
+      <div class="span6">
+      </div>
+    </header>-->
+    
+    <div class="demo-headline">
+        <h1 class="demo-logo">
+          Social Book Worms
+          <small>Love Paperbacks and Hardcovers</small>
+        </h1>
+    </div>
+
+
+
+    <!--<div class="login">
+       
+      <div class="login-form">
+         <div class="control-group">
+          <input type="text" class="login-field" value="" placeholder="Enter your name" id="login-name">
+         <label class="login-field-icon fui-user" for="login-name"></label>
+         </div>
+         <div class="control-group">
+          <input type="password" class="login-field" value="" placeholder="Password" id="login-pass">
+          <label class="login-field-icon fui-lock" for="login-pass"></label>
+         </div>
+         <a class="btn btn-primary btn-large btn-block" href="#">Login</a>
+         <a class="login-link" href="#">Lost your password?</a>
+      </div>-->
+
+   
+
+    <div class="row"> 
+      <div class="span6 offset3">
+        
+              <h1 style="font-weight: 400">signup</h3>
+              <div class="row">
+                <div class="span5">
+                  <input type="text" class="span5" placeholder="username"><!-- text box for username input-->
+                </div>
+                <div class="span1"></div>
+              </div>
+              <div class="row">
+                <div class="span5">
+                  <input type="text" class="span5" placeholder="email id"><!-- text box for username input-->
+                </div>
+                <div class="span1"></div>
+              </div>
+              <div class="row">
+                <div class="span5">
+                  <input type="text" class="span5" placeholder="password"><!-- text box for password -->
+                </div>
+                <div class="span1"></div>
+              </div>
+              <div class="row">
+                <div class="span5">
+                  <input type="text" class="span5" placeholder="confirm password"><!-- text box for username input-->
+                </div>
+                <div class="span1"></div>
+              </div>
+              
+              <div class="row">
+                <div class="span2">
+                  <a href="#fakelink" class="btn btn-block btn-primary">signup</a>
+                </div>
+                <div class="span3"></div>
+              </div>
+             <!-- <input type="submit" class="btn btn-primary" value="login"> 
+              <a class="btn btn-success" href="register.html"> signup </a>-->
+
+            
 
 
         </div>
 
-
-      </div>
-      <div class="span8"> </div>
-
+      <div class="span3"></div>
     </div>
 
 
@@ -45,11 +115,13 @@
 
 
 
+
+
   </div>
     
 
-    <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="http://code.jquery.com/jquery.js"></script>
     
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+  <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
